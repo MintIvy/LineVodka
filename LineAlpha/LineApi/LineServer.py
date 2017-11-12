@@ -28,11 +28,11 @@ class url(object):
     LINE_CHAN_QUERY_PATH            = '/CH4'
     LINE_SHOP_QUERY_PATH            = '/SHOP4'
 
-    UserAgent   = 'DESKTOP:MAC:10.10.2-YOSEMITE-x64(4.5.0)'
-    AppName     = 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0'
+    UserAgent   = 'Mozilla/5.0 (X11; CrOS x86_64 9765.85.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.123 Safari/537.36'
+    AppName     = 'Mozilla/5.0 (X11; CrOS x86_64 9765.85.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.123 Safari/537.36'
     port        = 443
     systemname  = 'VODKA-PC'
-    ip          = '8.8.8.8'
+    ip          = '7.7.7.7'
     _session = requests.session()
     Headers = {}
     _pincode = None
